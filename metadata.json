@@ -1,0 +1,5 @@
+{
+  "name": "CVE Insight & Education",
+  "description": "An interactive educational dashboard explaining Common Vulnerabilities and Exposures (CVE), the NVD, and the CVSS scoring system, based on the provided cybersecurity guidelines.",
+  "requestFramePermissions": []
+}
