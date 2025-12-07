@@ -1,7 +1,16 @@
+import React from 'react';
+
 export interface NavItem {
   id: string;
   label: string;
   icon: React.ReactNode;
+}
+
+export interface CVEDetails {
+  impact: string;
+  patches: string;
+  workarounds: string;
+  references: string[];
 }
 
 export interface CVELog {
@@ -11,6 +20,7 @@ export interface CVELog {
   severity: 'Low' | 'Medium' | 'High' | 'Critical';
   score: number;
   date: string;
+  details?: CVEDetails;
 }
 
 export interface CNAPartner {

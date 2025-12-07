@@ -48,7 +48,7 @@ export const Tooltip: React.FC<TooltipProps> = ({ content, children, position = 
     >
       {children}
       {isVisible && (
-        <div className={`absolute z-50 px-3 py-1.5 text-xs font-medium text-white bg-cyber-900 border border-cyber-700 rounded-md shadow-xl whitespace-nowrap animate-fade-in ${getPositionClasses()}`}>
+        <div className={`absolute z-50 px-3 py-2 text-xs font-medium text-white bg-cyber-900 border border-cyber-700 rounded-md shadow-xl w-max max-w-[200px] sm:max-w-xs whitespace-normal text-center leading-relaxed animate-fade-in ${getPositionClasses()}`}>
           {content}
           <div className={`absolute w-2 h-2 bg-cyber-900 border-r border-b border-cyber-700 transform rotate-45 ${getArrowClasses()}`}></div>
         </div>
