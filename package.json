@@ -23,10 +23,5 @@
   },
   {
   "packageManager": "pnpm@7.5.1"
-},
-{
-  "$schema": "https://openapi.vercel.sh/vercel.json",
-  "github": {
-    "enabled": true
-  }
+}
 }
